@@ -4,9 +4,9 @@ def func(a,b):
 a,b=map(int,input().split())
 print(func(a,b))
 for i in range(1,a+b):
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+# <<<<<<< Updated upstream
+# <<<<<<< Updated upstream
+# <<<<<<< Updated upstream
     print(i)
 for i in range(1,a+b+2):
     print(i)
@@ -25,12 +25,12 @@ class student():
         print(f'名字是{self.name}，年龄是{self.age}')
 stu=student('musuwer',18)
 stu.func2()
-=======
-    print(i)
->>>>>>> Stashed changes
-=======
-    print(i)
->>>>>>> Stashed changes
-=======
-    print(i)
->>>>>>> Stashed changes
+# =======
+#     print(i)
+# >>>>>>> Stashed changes
+# =======
+#     print(i)
+# >>>>>>> Stashed changes
+# =======
+#     print(i)
+# >>>>>>> Stashed changes
