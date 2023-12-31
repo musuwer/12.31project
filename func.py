@@ -34,3 +34,5 @@ stu.func2()
 # =======
 #     print(i)
 # >>>>>>> Stashed changes
+x=12
+if x >10:
