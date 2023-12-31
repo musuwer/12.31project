@@ -1,4 +1,3 @@
-
 def func(a,b):
     return a+b
 a,b=map(int,input().split())
@@ -28,7 +27,6 @@ stu.func2()
 # =======
 #     print(i)
 # >>>>>>> Stashed changes
-# =======
 #     print(i)
 # >>>>>>> Stashed changes
 # =======
@@ -37,3 +35,7 @@ stu.func2()
 x=12
 if x >10:
     pass
+# =======
+d = dir(math)
+for i in range(0, len(d), 8): #递归地打印列表中的元素，并按每行8个元素的格式进行输出
+    print('\t'.join(d[i:i+8]))
