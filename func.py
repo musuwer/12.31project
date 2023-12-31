@@ -36,3 +36,4 @@ stu.func2()
 # >>>>>>> Stashed changes
 x=12
 if x >10:
+    pass
