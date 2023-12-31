@@ -5,6 +5,13 @@ a,b=map(int,input().split())
 print(func(a,b))
 for i in range(1,a+b+2):
     print(i)
+while True:
+    n=1
+    if n >10:
+        break
+    else:
+        n+=1
+
 class student():
     def __init__(self,name,age):
         self.name=name
